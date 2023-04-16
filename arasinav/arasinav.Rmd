@@ -1,5 +1,5 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "Beklenen İstanbul Depremi Üzerine Bir Araştırma"
 author: 
   - Hakan Burak Günyel[^1]
 bibliography: ../bibliography/biblio.bib
@@ -45,16 +45,21 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
+6 Şubat 2023 tarihinde merkez üssü Kahramanmaraş olan, iki büyük şiddetli deprem gerçekleşmiştir. Resmi rakamlara göre yaklaşık 50.000 vatandaşımız hayatını kaybetmiştir. Yaşanan bu felaketten sonra akıllara beklenen İstanbul depreminin ne zaman olacağı, yaratacağı yıkımın nasıl bir şiddette olacağı soruları akla getirmiştir. Araştırmaya bu sorular üzerine başlanmaya karar verilmiştir. İlk olarak konuyla alakalı İstanbul Büyükşehir Belediyesi’nin İBB Açık Veri Portalı üzerinden yayınladığı “Deprem Senaryosu Analiz Sonuçları” adlı veri setini bulunmuştur. Veri seti 7.5 Mw büyüklüğünde gece olacak deprem senaryosuna göre yapılan analizlerin sonuçlarını içermektedir. Veri seti 960 gözlem, 16 gözlem içermektedir.  Çalışma kolaylığı olması açısından gözlem sayısı elenerek çalışmaya eklenebilir.
 
 
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir (doğal olarak ilk bölüm başlığı hariç). Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Çalışmanın amacı beklenen İstanbul depreminin yaratacağı hasarı İstanbul’un ilçeleri; mahalleleri; çok ağır, ağır, orta ve hafif hasarlı bina sayısı; can kaybı sayısı; ağır yaralı sayısı; hafif yaralı sayısı; hastanede tedavi sayısı; doğalgaz borusu, atık su borusu ve içme suyu borusu hasarı sayısı; geçici barınma sayıları değişkenleri üzerinden incelenmesini amaçlayan, içinde tablo ve grafiklerin bulunduğu istatiksel bir analiz yapmaktır.
 
 ## Literatür 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Depremler Dünyada kırık hatlar boyunca biriken enerjinin ani bir şekilde boşalması sonucu oluşan doğal afetlerdir. Dünya genelinde yılda 500.00 deprem olur ve bunların 100 ü binalara hasar verecek kadar güçlüdür. 17 Ağustos 1999 depreminden sonra yapılan araştırmalar Marmara Denizinde hala kırılmayan faylar olduğunu gösterir. Tom Parsons’ ın 2000 yılında yaptığı bir çalışma beklenen depremin 2000 ila 2030 yılları arasında olacağını gösterir. İstanbul,tarihi, coğrafyası, sosyal ve kültürel yönü bakımından oldukça zengin bir şehirdir. Büyük bir depremi yaşaması durumunda sadece Türkiye için değil, dünya birikimi açısından büyük bir kayıp yaşanır.[@csimcsek2021big]
+Türkiye deprem kuşağında olmasına rağmen olası depremin yaratacağı hasara karşı hazırlıksızdır. Şehirlerimizde hızlı ve yoğun kentleşme beraberinde plansız yapılaşmayı beraberinde getirir.  Bu da kayıpların önünü açacaktır. Marmara bölgesi tarihimizde büyük yıkıcı depremlerle karşılaşmıştır. Yapılan çalışmalar büyük bir depremin tekrar yaşanacağını öngörmektedir. Böyle bir duruma hazırlıklı olmayan İstanbul’ da ciddi sayılarda can ve mal kaybının yaşanacağı tahmin edilmektedir. [@uyar2023deprem]
+Deprem tehlikesi, arazi kullanımı, demografik yapı ve ekonomik yapı depremin riskini etkileyen temel faktörlerdir.  Depremin tehlikesini başta depremin büyüklüğü belirler. Konut alanlarındaki yoğunluk, nüfusun büyüklüğüyle doğru orantılıdır. Doğal afetler açısından bakıldığında en çok hasar yerler konut alanlarıdır. Konut alanlarının yapısal özelliklerinin belirlenmesi hasar tahmini yapmaya kolaylık sağlar. İstanbul’da depreme bağlı risk düzeylerini belirleyen ana bileşenler belirlenmiştir. Bu bağlamda hasar görebilirlik (mahallenin yaşı, yapı stoğu ve demografik yapısı incelenir), yoğunluk (mahalledeki yapı ve nüfus yoğunluğu incelenir), işyeri ve yanıcı/patlayıcı kullanımlar, tehlike (depremin yaratacağı ivme tepki spektrum değeri), ve potansiyeller (mahalledeki sağlık tesisi ve hasta yatak sayısı) incelenir. Sonuç olarak kentsel arazi kullanımı beraberinde nüfus yoğunluğunu getirir ve bahsedilen ana bileşenlerle birlikte depreme bağlı riski artırır. [@kundak2010istanbul]
+Deprem riskine karşı insanlara farkındalık eğitimi verilmeli; kentsel dönüşüm ve altyapı çalışmaları yapılarak önlemler alınmalıdır. Depremle ilgili gerekli kanuni önlemler alınmalı, zorunlu deprem sigortası vatandaşlara yaptırılmalıdır. Türkiye’nin en önemli sanayi ve finans merkezi olan İstanbul’da yıkıcı bir depremin meydana gelmesi ekonomi ve endüstri faaliyetlerini durma noktasına getirebilir. [@erdik2008earthquake]
+
+ 
+
 
 
 **_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
